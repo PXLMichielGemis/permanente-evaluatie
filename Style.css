@@ -3,15 +3,18 @@
 }
 
 h1 {
-    padding: 20pt 20pt 40pt 20pt;
-    position: Fixed;
-    Top: 20pt;
-    left: 7pt;
+    font-size: 30pt;
+    font-family: "Brush Script MT" , "Times New Roman" , sans-serif;
+    padding: 10pt 10pt 20pt 10pt;
+    position: static;
+
 }
 nav {
-    position: Fixed;
-Top: 100pt;
-    left: 7pt;
+    z-index: 2;
+    position: sticky;
+    top: 80pt;
+    margin: 2pt;
+
 }
 nav ul li {
     display: inline
@@ -26,8 +29,19 @@ nav ul li a {
     margin: 2pt;
 }
 article {
-    position: relative;
-    top: 30pt;
+    overflow: auto;
+    position: static;
+    z-index: -1;
+}
+.volgendartikel
+{
+    position: static;
+
+
+}
+table, th, td
+{
+    border: 1px solid black;
 }
 
 
