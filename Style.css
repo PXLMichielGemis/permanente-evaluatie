@@ -1,9 +1,10 @@
 * {
-    background-color: aquamarine;
+    background-color: #5bc034;
 }
 
 h1 {
-    font-size: 30pt;
+    font-size: 45pt;
+    color: white;
     font-family: "Brush Script MT" , "Times New Roman" , sans-serif;
     padding: 10pt 10pt 20pt 10pt;
     position: static;
@@ -43,5 +44,11 @@ table, th, td
 {
     border: 1px solid black;
 }
-
+p
+{
+    color: white;
+    font-size: 12pt;
+    font-family: "Times New Roman" , "Fira Code" , sans-serif;
+    position: static;
+}
 
